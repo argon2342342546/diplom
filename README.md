@@ -2,12 +2,16 @@
 
 ## Установка зависимостей
 
-### `npm i`
+### Клиентская часть 
+`npm i`
 
-### `pip install pandas numpy flask flask-cors`
+### Серверная часть 
+`pip install pandas numpy flask flask-cors`
 
 ## Запуск
 
-### Клиентская часть `npm start`
+### Клиентская часть 
+`npm start`
 
-### Серверная часть `python .\app.py`
+### Серверная часть 
+`python .\app.py`
