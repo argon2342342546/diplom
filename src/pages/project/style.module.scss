@@ -1,0 +1,44 @@
+.nav {
+    display: flex;
+    min-height: 60px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+    flex-direction: row;
+    justify-content: space-between;
+
+    .item {
+        cursor: pointer;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+
+        input {
+            outline: none;
+            border: none;
+            height: 100%;
+            padding: 0;
+
+            &:hover,
+            :active {
+                outline: none;
+            }
+        }
+    }
+
+    .start {
+        border-right: 1px solid rgb(0 0 0 / 2%);
+        font-size: 30px;
+    }
+
+    .end {
+        border-left: 1px solid rgb(0 0 0 / 2%);
+    }
+}
+
+.container{
+    background: rgb(255, 255, 255);
+    padding: 16px;
+    margin-top: 24px;
+}

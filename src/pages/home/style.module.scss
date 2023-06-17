@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 36px;
+    gap: 16px;
+    align-items: stretch;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border: 2px dashed #1677ff;
+    border-radius: 5%;
+    cursor: pointer;
+}
